@@ -143,6 +143,8 @@ header .logo {
 
 .main-content .top-content {
     display: flex;
+    flex-wrap: wrap;
+    width: 45%;
 }
 
 .main-content .middle-img {
@@ -152,6 +154,8 @@ header .logo {
 
 .main-content .bottom-content {
     display: flex;
+    flex-wrap: wrap;
+    width: 33%;
 }
 
 .main-content .bottom-content p {
