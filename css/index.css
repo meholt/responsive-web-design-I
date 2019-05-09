@@ -1,3 +1,162 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+header {
+	margin-bottom: 20px;
+	margin-left: 50px;
+	margin-top: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  header img {
+	margin-left: 10px;
+  }
+  
+  header nav a {
+	color: gray;
+	text-decoration: none;
+	margin: 0 50px 0 0;
+  }
+
+.leftside {
+  margin: 150px 130px 80px 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.leftside h1 {
+  font-size: 80px;
+  text-align: center;
+}
+
+button {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.middleSection {
+  border-bottom: 1px solid black;
+  margin-left: 70px;
+  margin-right: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.middlesection img, .leftside {
+  margin-right: 50px;
+}
+
+.features, .about {
+  width: 41%;
+  display: inline-block;
+  font-color: black;
+  margin-top:25px;
+  margin-bottom: 35px;
+}
+
+.features {
+  margin-right: 15px;
+  margin-left: 70px;
+/*   padding-right: 15px; */
+}
+
+.about {
+  margin-right: 170px;
+}
+
+.middle-img {
+  width: 80%;
+  margin-bottom: 40px;
+  margin-left: 70px;
+}
+
+.services, .product, .vision {
+  width: 30%;
+  display: inline-block;
+  margin-bottom: 45px;
+}
+
+.services {
+    margin-left: 70px;
+}
 
 
+.footer {
+  padding-top: 45px;
+  border-top: 1px solid black;
+  margin-left: 70px;
+}
+
+.contact p {
+  margin-bottom: 15px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 65px;
+}
