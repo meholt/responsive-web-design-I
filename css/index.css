@@ -270,9 +270,21 @@ footer {
         order: -1;
     }
 
-    /* header nav a {
-        display: flex;
-        /* flex-wrap: wrap; */
+    .cta {
+        justify-content: center;
+    }
+
+    .cta img {
+        display: none;
+    }
+
+    .main-content .top-content {
+        width: 40%;
+    }
+
+    /* .main-content .middle-img {
+        display: block;
+        margin: 30px auto;
     } */
 
 }
