@@ -260,9 +260,18 @@ footer {
 @media ( max-width: 800px ){
     header {
         width: 100%;
+        padding-right: 175px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        
+    }
+
+    header nav {
+        margin-top: 40px; 
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
     }
 
     header .logo {
@@ -282,9 +291,10 @@ footer {
         width: 40%;
     }
 
-    /* .main-content .middle-img {
+    .main-content .middle-img {
+        max-width: 100%;
         display: block;
         margin: 30px auto;
-    } */
+    }
 
 }
