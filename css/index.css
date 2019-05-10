@@ -267,9 +267,9 @@ footer {
         
     }
 
-    header nav {
-        margin-top: 40px; 
+    header nav a { 
         width: 100%;
+        padding-right: 70px;
         display: flex;
         justify-content: space-evenly;
     }
@@ -287,14 +287,31 @@ footer {
         display: none;
     }
 
+    .main-content {
+        max-width: 100%;
+        border-top: 2px solid black; 
+        border-bottom: 2px solid black;
+        margin: 75px 0 35px 20px;
+        padding: 35px 0;
+        font-size: 16px;
+        line-height: 18px;
+        display: flex;
+        flex-wrap: wrap;
+     }
+
     .main-content .top-content {
-        width: 40%;
+        width: 47%;
+        padding-left: 15px;
     }
 
     .main-content .middle-img {
-        max-width: 100%;
+        /* max-width: 100%; */
         display: block;
         margin: 30px auto;
+    }
+
+    .main-content .bottom-content {
+        width: 33%;
     }
 
 }
